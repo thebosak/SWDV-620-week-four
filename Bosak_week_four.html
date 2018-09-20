@@ -10,7 +10,7 @@
     <title>Brad's Favorite Books</title>
     <script type = "text/javascript" src="user_prompt.js"></script>
   </head>
-  <body onload="user_prompt()">
+  <body onload="userPrompt()">
     <table BORDER="5">
         <tr>
           <th COLSPAN="4">
@@ -52,6 +52,13 @@
         </tr>
     </table>
     <br>
-    
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+
+        <!--an alternative for requesting username and prompt-->
+        <input type="button" value="Login" class="formButton" onclick="userPrompt()"/>
+      </fieldset>
+    </form>
   </body>
 </html>

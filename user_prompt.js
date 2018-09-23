@@ -19,5 +19,6 @@ function verifyUser(username, pwd, user1, user2) {
         alert("Here's your pwd: " + pwd);
     } else {
         alert("Sorry, you are not a recognized user.");
+        document.write('Username error:  unrecognized user.  Please load the page and try again.');
     }
 }
